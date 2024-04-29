@@ -1,0 +1,26 @@
+Create main server
+    connecting to all other controllers
+    Co2 sensor too 
+
+create controller to actuator
+    control actuator relay
+    send data if open or closed
+    get data if it should open or close
+
+create controller to mist
+    send signal to start creating mist
+    get data if it should activate
+    test how long it need to be active
+        have a time despensor
+    send signal when it was activated last and how long
+
+create controller to outdoor temp/humid sensor
+    send temp to server
+    send humid to server
+    store it up to a day (maybe)
+
+create a webside to handle it all
+    make it easy to read
+    make it easy to use
+    have possitive feedback
+    
